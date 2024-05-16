@@ -4,6 +4,43 @@
 <head>
 <title>application
 </title>
+<style>
+    input[ type=text]{
+      width:800px;
+      height:40px;
+      text-align:center;
+      margin:10px;
+      border-bottom:dashed;
+      border-top:groove 10px grey
+      padding:30px;
+      border-radius:50px;
+      vertical-align:sub;
+      background-color:grey;
+    }
+    input[type=text]:focus{
+  background-color:lightblue;
+}
+input[ type=password]:hover{
+  width:700px;
+  height:20px;
+  text-alignleft;
+  background-color:red;
+  color:brown;
+  border-top:inset;
+  border-bottom:outset;
+   vertical-align:super;
+}
+input[ type=file]{
+  width:800px;
+  height:40px;
+  text-align:center;
+  margin:10px; 
+}
+input [ type=label]{
+    background-color: green;
+    
+}
+</style>
 <body>
 <h1>form creation</h1>
 <fieldset>
@@ -53,5 +90,7 @@
 </fieldset>
 </body>
 </html>
+
+
 
 
