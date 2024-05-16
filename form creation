@@ -1,1 +1,57 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+<title>application
+</title>
+<body>
+<h1>form creation</h1>
+<fieldset>
+<legend><b> STUDENT REGISTRATION FORM </b></legend>
+<h1>PERSONAL DETAILS</h1>
+<label> username:</label>
+<input type="text" name="your name" placeholder="enter your name" maxlength="10" reqire><br>
+<label> password:</label>
+<input type="password" name="password" maxlength="10"><br>
+<label>gender:</label><br>  
+<input type="radio" name="gender">male
+<input type="radio" name="gender">female
+<input type="radio" name="gender">transgender<br>
+<label>email:</label><br>
+<input type="text"></input type><br>
+<label>contact number:</label>
+<input type="text"></input type><br>
+<h5> address</h1>
+<textarea rows="10" cols="30"></textarea> 
+<h1> EDUCATIONAL QUALIFICATIONS</h1>
+<label> Educational institute:</label>
+<input type="text"></input type><br>
+<label> educational type</label>
+<select>
+<option value="degree">degree<br>
+<option value="engineering"> engineering
+</select><br>
+<label> degree</label><br>
+<select size="3" multiple>
+<option>bcom</option>
+<option>bsc</option>
+<option>bba</option>
+<option>ba</option>
+</select><br>
+<label>engineering</label><br>
+<select size="3" multiple>
+<option>cse</option>
+<option>civil</option>
+<option>ece</option>
+<option>civil</option>
+<option>eee</option>
+</select><br>
+<label>attach resume</label><br>
+<input type="file" name="file" placeholder="choose file"></input type><br>
+<input type="submit" name="button">
+<input type="reset" name="button">
+</fieldset>
+</body>
+</html>
+
+
